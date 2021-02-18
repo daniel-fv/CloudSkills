@@ -37,7 +37,7 @@ You can apply patches, upgrade or downgrade, and scale up and down.
   - C++
 
 
-# OOP, Functional, Procedural
+# Functional, Procedural
 ## Functional programming
 - Like a mathematical function
 - **Imperative**
@@ -45,3 +45,20 @@ You can apply patches, upgrade or downgrade, and scale up and down.
 ## Procedural programming
 - A set of steps
 - **Declarative**
+
+# Idempotence
+- Make the same call (API call, HTTP method, command, etc.) without the result changing.
+- Making multiple, identical requests has the same effect as a single request
+- Example: if you delete a file and try to delete it again we won't get the same result because the file is already deleted, we can't modify it again.
+
+# Testing code
+## Unit Tests
+Test a specific component (a functionality) of a specific piece of code. Example: test a sum function in the code.
+
+## Mock Test
+Make assertions, confirm if output is a string for example. Confirmation.
+
+## Regression Test
+Confirm if the code is working after a particular change in the code.
+
+
