@@ -61,4 +61,7 @@ Make assertions, confirm if output is a string for example. Confirmation.
 ## Regression Test
 Confirm if the code is working after a particular change in the code.
 
+## Linting
+Linting is the automated checking of your source code for programmatic and stylistic errors. This is done by using a lint tool.
+
 
