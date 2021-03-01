@@ -3,3 +3,5 @@
 
 # .tfstate files
 *.tfstate
+
+*.exe
