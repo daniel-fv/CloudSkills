@@ -31,3 +31,16 @@ Extending continuous delivery by removing human intervention from the CI/CD proc
 
 ## YAML Pipelines
 Most CI/CD tools work using YAML Pipelines.
+
+## Deploying CI/CD on Premise
+- Github Self Hosted Runners
+- Azure DevOps Self Hosted Agents
+
+## CI/CD not just for applications
+- Infraestructure
+- Database Administration
+- 3rd party artifacts
+  - packages
+  - executables
+  - installable software
+
